@@ -1,0 +1,117 @@
+html{
+    height:100%;
+    margin-left: 10px;
+}
+
+body{
+    background-color: rgb(190, 204, 204);
+    height:100%;
+    margin: 0px;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+}
+
+nav {
+    background-color: rgb(231, 206, 187);
+    text-align:center;
+    font-size:xx-large;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+nav a:hover{
+    background-color: burlywood;
+}
+
+p::first-line {
+    color: #9e0d20;
+    font-size: 30px;
+}
+
+body h1{
+    font-size: 100px;
+    font-style: oblique;
+}
+
+body h2{
+    background-color: rgb(241, 224, 224);
+    text-align:center;
+    color: rgb(37, 28, 28);
+    font-size: 40px;
+}
+
+body p{
+    text-align: center;
+}
+body form{
+    text-align: center;
+}
+body ol {
+    text-align: center;
+}
+div:hover p {
+    display: block;
+}
+
+footer{
+    grid-area: footer;
+    font-size: 20px;
+    color: black;
+    text-align: center;  
+    background-color: rgb(243, 247, 195);
+    height:60px;
+}
+
+body main h2 {
+    text-align: left;
+    color: white;
+    background-color: rgb(39, 38, 38);
+    font-style: oblique;
+    font-family:  'Haettenschweiler';
+}
+
+@keyframes mymove{
+    50% {box-shadow: 10px 20px 30px rgb(253, 72, 0);}
+}
+
+table td{
+    padding: 8px;
+    color: rgb(214, 16, 16);
+    border: 2px rgb(255, 0, 13) solid;
+}
+
+.music{
+    display: grid;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(216, 88, 88);
+    width:950px;
+}
+
+.music>div{
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(252, 185, 173) ;
+}
+
+.relax{
+    display: flex;
+    flex-direction: row;
+    background-color: violet;
+    width: 1200px;
+    justify-content: center;
+}
+
+.relax>div{
+    width: 600px;
+    margin: 10px;
+    margin-top: 10px;
+    background-color: rgb(245, 196, 233);
+    text-align: center;
+}

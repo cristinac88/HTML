@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane SYSTEM "proiect.dtd">
+
+<persoane>
+    <persoana id="1">
+        <nume>Antalute</nume>
+        <prenume>Cristina</prenume>
+        <varsta>21</varsta>
+        <studii>IT</studii>
+        <adresa>
+            <strada>Ceferistilor</strada>
+            <numar>9</numar>
+            <localitate>Pascani</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+    <persoana id ="2">
+        <nume>Noah</nume>
+        <prenume>Cara</prenume>
+        <varsta>24</varsta>
+        <studii>IT</studii>
+        <adresa>
+            <strada>M. Eminescu</strada>
+            <numar>5</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+</persoane>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>My web page</title>
+        <link rel="stylesheet" href="css/stil.css" type="text/css"/>
+        <link rel="stylesheet" href="js/script.js" type ="text/js"/>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <h1><img src= "imagini/logo.png" alt="Nu">Programare Web</h1>
+        <nav>
+            <a href="index.html">Acasă</a>&nbsp;&nbsp;&nbsp;
+            <a href="inregistreaza.html">Înregistrează</a>&nbsp;&nbsp;&nbsp;
+            <a href="video.html">Video</a>&nbsp;&nbsp;&nbsp;
+            <a href="despre_html.html">Despre</a>&nbsp;&nbsp;&nbsp;
+            <a href="desen.html">Desen</a>
+            <a href="invat_js.html">JavaScript</a>
+            <a onclick="schimbaContinut('persoane', 'persoane.js', 'incarcaPersoane')">Persoane</a>
+        </nav>
+
+        <p>Informații generale: 
+            <form>
+                <fieldset>
+                <label>Nume utilizator:</label>
+                <input type="text" value="nume"><br><br>
+                <label>Parola: </label>
+                <input type="password" value="aaa"><br><br>
+                <label>Nume: </label>
+                <input type="text" value="nume"><br><br>
+                <label>Prenume: </label>
+                <input type="text" value="prenume"><br><br>
+                <label>Email: </label>
+                <input type="email" value="email"><br><br>
+                <label>Telefon: </label>
+                <input type="tel" value="telefon"><br><br>
+            </fieldset>
+            </form>
+        >
+        <p>Informații personale:
+            <form>
+            <fieldset>
+                <label>Sex-ul: </label>
+                <select>
+                    <option>Feminin</option>
+                    <option>Masculin</option>
+                    </select><br><br>
+                <label>Mâncarea preferată: </label>
+                <input list="mancare">
+                <datalist id="mancare">
+                    <option value="Paste">
+                    <option value="Ciorbă">
+                    <option value="Pui">
+                </datalist><br><br>
+                <label>Culoarea preferata: </label>
+               
+                    <input type="color" value="color">
+                <br><br>
+                <label>Data nașterii: </label>
+                    <input type="date" value="date"><br><br>
+                <label>Ora nașterii: </label>
+                    <input type="time" value="time"><br><br>
+                <label>Vârsta : </label>
+                    <input type="range" min="18" max="100"><br><br>
+                <label>Adresa paginii personale: </label>
+                    <input type="url" value="url"><br><br>
+                <label>Descriere: </label>
+                <textarea> </textarea><br><br>
+                <input type="button" disabled value="Inregistreaza">
+            </fieldset>
+            </form>
+        <br><br>
+    </body>
+
+    <footer>
+        Made with ♥ by: Antăluțe Cristina<br>
+        Contact information: <a href="antalutecristina@gmail.com">antalutecristina@gmail.com</a>.
+    </footer>
+</html>
